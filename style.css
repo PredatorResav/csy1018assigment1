@@ -1,0 +1,265 @@
+body{
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.topnav {
+  /*background-color: black;*/
+  overflow: hidden;
+  border-radius: 6px;
+  /*transition: 3s ease;*/
+  width: 532px;
+  margin-left: 875px;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:#c4beb4;
+  color: black;
+  border-radius: 5px;
+  
+}
+
+.topnav a.active {
+  background-color: #bf8a37;
+  color: black;
+  border-radius: 5px;
+
+}
+
+
+.topnav .icon {
+  display: none;
+}
+
+
+
+#title{
+  font-size: 300px;
+  text-align: center;
+  margin-top: 50px;
+  color: #1f7976;
+}
+.container{
+  backdrop-filter:blur(10px);
+  width: 805px;
+  height: 340px;
+  margin-left: 360px;
+  margin-top: 59px;
+
+}
+img{
+  border-radius: 150px;
+  float: right;
+  margin-top: 30px;
+}
+#left{
+  margin-top: 5px;
+  margin-left: 150px;
+  float: left;
+  font-size: 29px;
+
+}
+#hello{
+  text-align: center;
+  font-size: 70px;
+  margin-top: 100px;
+}
+#button{
+  background-color: #94b4d3;
+  width: 102px;
+  height: 17px;
+  padding: 14px 16px;
+  margin-left: 770px;
+  margin-top: -34px;
+  border: 2px solid;
+}
+#button:hover{
+  background-color: black;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+
+
+}
+a:hover{
+  color: white;
+
+
+}
+
+#button1{
+  background-color: #94b4d3;
+  width: 102px;
+  height: 20px;
+  padding: 14px 16px;
+  margin-left: 600px;
+  display: inline;
+  border: 2px solid;
+}
+#button1:hover{
+  background-color: black;
+}
+
+#mail{
+  margin-left: 600px;
+  color: white;
+  background-color: black;
+  width: 300px;
+  height: 30px;
+}
+#number{
+  margin-left: 600px;
+  color:white;
+  background-color: black;
+  width: 300px;
+  height: 30px;
+}
+#Mname{
+  color: white;
+  background-color: black;
+  width: 300px;
+  height: 30px;
+  margin-left: 600px;
+
+}
+.cont{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: #80808096;
+  padding: 30px;
+  border-radius: 8px;
+  flex-wrap: wrap;
+  height: 575px;
+
+}
+#Pinfo{
+  background-color: green
+  width: 235px;
+  height: 150px;
+  padding: 10px;
+  margin-left: 100px;
+
+}
+
+#DOB{
+  background-color: red
+  width: 235px;
+  height: 150px;
+  padding: 10px;
+  margin-left: 60px;
+}
+#Skills{
+  width: 590px;
+  height: 150px;
+  margin-top: 170px;
+  margin-left: -552px;
+
+}
+#strength{
+  width: 235px;
+  height: 150px;
+  margin-top: 440px;
+  margin-left: -590px;
+}
+h3{
+  
+  margin-top: 300px;
+  margin-left: -216px;
+}
+h4{
+  margin-top: 500px;
+  margin-left: -80px;
+  font-size: 24px;
+}
+input{
+  border-radius: 5px;
+}
+.length{
+  width: 230px;
+}
+textarea{
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+  body{
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+.topnav {
+  /*background-color: black;*/
+  overflow: hidden;
+  border-radius: 6px;
+  /*transition: 3s ease;*/
+  width: 532px;
+  margin-left: 0px;
+}
+#button1{
+  background-color: #94b4d3;
+  width: 102px;
+  height: 20px;
+  padding: 14px 16px;
+  margin-left: 0px;
+  display: inline;
+  border: 2px solid;
+}
+
+#button{
+  background-color: #94b4d3;
+  width: 102px;
+  height: 17px;
+  padding: 14px 16px;
+  margin-left: 180px;
+  margin-top: -34px;
+  border: 2px solid;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
